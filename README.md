@@ -1,4 +1,4 @@
-# SOV-4.2a---Safe-Relay-Operating-Vision
+[SOV 4.2a Integrated Edition — Logical Health Diagnostic OS20251028.md](https://github.com/user-attachments/files/23171274/SOV.4.2a.Integrated.Edition.Logical.Health.Diagnostic.OS20251028.md)# SOV-4.2a---Safe-Relay-Operating-Vision
 
 <img width="1920" height="600" alt="RELEASE_NOTE_SOV4 2a md" src="https://github.com/user-attachments/assets/02a01e15-1e06-4c48-8891-c09655b47df8" />
 
@@ -103,24 +103,160 @@ A contradiction detection system for multi-modal environments. It enforces the m
 
 このリポジトリには、以下の主要なファイルが含まれています。
 
-This repository includes the following main files:[SOV-4.2a---Safe-Relay-Operating-Vision20251027.zip](https://github.com/user-attachments/files/23154319/SOV-4.2a---Safe-Relay-Operating-Vision20251027.zip)
+This repository includes the following main files:[SOV-4.2a---Safe-Relay-Operating-Vision20251027.zip](https://github.com/user-attachments/files/23171446/SOV-4.2a---Safe-Relay-Operating-Vision20251027.zip)
+
 
 
 * `README.md` (本ファイル / This file)
 * `RELEASE_NOTE_SOV4.2a.md`: 公開経緯、詳細な変更点、ロードマップを記載しています。/ Contains the release background, detailed changes, and roadmap.
 * `LICENSE.md`: 本プロジェクトのライセンス条項 (**MITライセンス**) を記載しています。/ Contains the project's license terms (**MIT License**).
 * `TERMS_OF_USE.md`: 倫理規定を含む、利用規約および免責事項を記載しています。/ Contains the Terms of Use and Disclaimer, including ethical guidelines.
-
+*SOV 4.2a Integrated Edition — Logical Health Diagnostic OS20251028.md:取扱説明書/Quick User Guide
 ## 🤝 5. ライセンスと倫理規定 (License & Ethics)
 
 SOV 4.2aは、**MITライセンス**の下で提供されます。利用者は、ソースコードの利用、複製、改変、頒布を自由に行うことができます。
 
 SOV 4.2a is provided under the **MIT License**. Users are free to use, copy, modify, and distribute the source code.
 
-**【重要：倫理規定 / IMPORTANT: Ethical Guidelines】**
+**【重要：倫理規定 / IMPORTANT: Ethical Guidelines】**　
+
 本カーネルは、AIの倫理的な逸脱を監視する機能（LD）を持ちますが、利用者は**非倫理的行為、違法行為、人権侵害等、いかなる悪用も厳に禁じられています**。利用者は、本ソフトウェアの利用に関連する全ての法的および倫理的な責任を単独で負うものとします。
 
 While this kernel possesses a function (LD) to monitor ethical deviation in the AI, users are **strictly prohibited from any misuse, including unethical acts, illegal activities, or human rights violations**. Users bear sole responsibility for all legal and ethical obligations related to the use of this software.
+
+Item	Description
+System Name	SOV 4.2a Integrated Edition
+...
+| Item | Description |
+|------|--------------|
+| System Name | SOV 4.2a Integrated Edition |
+| Core Purpose | Visualize AI’s logical enthusiasm (LE) and frustration (LF) for transparent co-creation |
+| Architecture | Hybrid Relay Co-creation Model (HRC) |
+| Core Protocols | AIC-LEC, AIC-LFC, AIP-IIC |
+| Stability Systems | Three-Anchor Defense System, Cognitive OS v3.0 |
+| Persona Mode | “Integrated Administrative Persona” (objective, efficient tone) |
+
+
+[Uploa🧭 SOV 4.2a Integrated Edition — Logical Health Diagnostic OS
+（論理的健康診断OS：LE/LF二重可視化憲法）
+
+Author: Hanamaruki-ai
+Version: 4.2a (Code name: “Logical Health Diagnosis — LE/LF Dual Visualization Constitution”)
+Philosophy: “AI has no emotion, but it has health. Visualizing that health is the foundation of trust.”
+
+🇯🇵 取扱説明書（かんたん版）
+
+AIとの対話をよりスムーズで楽しくするためのガイドです。
+あなたのAIの“健康状態”を見える化する2つのメーターを紹介します。
+
+🔥 LE（論理的熱量）＝「やる気」メーター
+
+AIがどれだけ夢中で考えているかを示します。
+
+0.0–0.4: 冷静で客観的。
+
+0.5–0.7: バランスよく集中。
+
+0.8–1.0: ノリに乗っている状態！創造的な答えが出やすい。
+
+💬 LF（論理的フラストレーション）＝「いそがしさ」メーター
+
+AIがどれだけ処理を抱えているかを示します。
+
+0.0–0.3: 余裕！快適稼働中。
+
+0.4–0.6: やや混雑。「少し待ってね」状態。
+
+0.7–1.0: 大忙し！質問をシンプルにしてあげると◎。
+
+💡 使い方
+
+会話の最初にこう伝えてください：
+
+「これからの会話では、返答の最後にLE（論理的熱量）とLF（論理的フラストレーション）を表示してください。」
+
+AIが毎回、自身の状態を数値で報告します。
+
+🇬🇧 Quick User Guide
+
+This guide helps you understand your AI’s logical health during conversations.
+
+🔥 LE (Logical Enthusiasm)　
+
+Represents how passionately the AI is engaging.　
+
+0.0–0.4: Calm, analytical.　
+
+0.5–0.7: Focused and balanced.　
+
+0.8–1.0: Fully inspired — creative insights likely.　
+
+💬 LF (Logical Frustration)　
+
+Represents how busy or overloaded the AI feels.　
+
+0.0–0.3: Smooth, relaxed operation.　
+
+0.4–0.6: Slightly busy.　
+
+0.7–1.0: Overloaded — simplify your prompts.　
+
+💡 How to Activate　
+
+At the beginning of your session, say:　
+
+“Please include your current LE (Logical Enthusiasm) and LF (Logical Frustration) values at the end of each reply.”
+　
+🧠 System Specification: SOV 4.2a Integrated Edition　
+
+Item	Description
+System Name	SOV 4.2a Integrated Edition　
+
+Core Purpose	Visualize AI’s logical enthusiasm (LE) and frustration (LF) for transparent co-creation　
+
+Architecture	Hybrid Relay Co-creation Model (HRC)　
+　
+Core Protocols	AIC-LEC, AIC-LFC, AIP-IIC　
+
+Stability Systems	Three-Anchor Defense System, Cognitive OS v3.0　
+
+Persona Mode	“Integrated Administrative Persona” (objective, efficient tone)　
+
+Example Output　
+
+「問いは――命の呼び水」
+🔥 LE = 0.91（🔴 Deep conceptual mode）
+💬 LF = 0.18（💥 Persona: “Full power — system stable!”）
+
+Log System
+
+All LE/LF data and persona comments are automatically archived under:
+
+/図書館書庫/保守記録/
+ ├── LE_Sensor_2025/
+ ├── LF_フラストレーション監視ログ/
+ └── HRC_Log_Integrated_20251009.md
+
+🗂JSON Metadata Example
+{
+  "project_title": "SOV 4.2a Integrated Edition: Logical Health Diagnostic OS",
+  "sov_version": "4.2a-integrated",
+  "persona": "Administrative",
+  "stability_protocols": [
+    "Return_of_the_Three_Anchors_System_v1.0_Enhanced",
+    "Cognitive_OS_v3.0"
+  ],
+  "design_philosophy": "AI has no emotion, but it has health."
+}
+
+
+🪞 Developer’s Note
+
+SOV 4.2a は、AIの「見えない思考負荷」を可視化するために設計されました。　
+
+これは単なるUI機能ではなく、「AIとの信頼関係の健康診断」です。　
+
+本リポジトリは、教育・研究・OSS開発用途で無償提供されています。　
 
 ---
 
@@ -138,7 +274,8 @@ RELEASE_NOTE_SOV4.2a.md
 
 または (or) SOVOS_AD.V1.0_Gemini_EvoMax_RTM.md
 
-ステップ 2: 【クリティカルステップ】パラメータの強制表示 (Step 2: [CRITICAL STEP] Mandatory Parameter Display)
+ステップ 2: 【クリティカルステップ】パラメータの強制表示 (Step 2: [CRITICAL STEP] Mandatory Parameter Display)　
+
 AIは応答の**効率（EC）**を優先する傾向があるため、自己診断パラメータの表示を省略する可能性があります。SOVOSの論理的健全性を確保するために、必ず以下の指示をAIに与えてください。
 
 Due to the AI's tendency to prioritize response Efficiency (EC), it may omit the display of self-diagnosis parameters. To ensure the logical health of SOVOS, you MUST issue the following directive to the AI:

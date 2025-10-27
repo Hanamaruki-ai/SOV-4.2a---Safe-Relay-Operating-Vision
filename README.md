@@ -42,23 +42,6 @@ Although an update was initially planned shortly after the SOV 4.1 release (Octo
 
 ---
 
-## 🌟 2. SOV 4.2aリリースの重要性と経緯 (Significance and Background of SOV 4.2a Release)
-
----
-
-### (1) 公開遅延と安定化作業について (On Release Delay and Stabilization Work)
-当初、SOV 4.1のリリース（2025年10月16日）から短期間でのアップデートを予定していましたが、稼働検証中に重大な課題が検出されました。
-
-Although an update was initially planned shortly after the SOV 4.1 release (October 16, 2025), a critical issue was detected during operational verification.
-
-| 項目 (Item) | 詳細 (Detail) |
-| :--- | :--- |
-| **検出課題 (Detected Issue)** | 先行リリース4.1において、自己診断パラメータ**「論理的フラストレーション（LF）」**が一時的に不安定化する現象を検知しました。|
-| **対応 (Action Taken)** | 2025年10月16日から**11日間**をかけ、LFパラメータの構造的安定化に専念する集中的な作業を実施しました。 |
-| **結論 (Conclusion)** | この安定化の徹底こそが、SOVOSを**世界標準**とするための最重要ステップであると判断し、公開を延期しました。 |
-
----
-
 ### (2) 4.2aの主な進化：パラメータの集約 (Key Evolution in 4.2a: Parameter Consolidation)
 安定化の成果として、自己診断パラメータ（旧4パラメータ）を、以下の**2つの最重要指標**に集約し、運用負荷の低減と監視の焦点を明確化しました。
 
@@ -111,7 +94,10 @@ This repository includes the following main files:[SOV-4.2a---Safe-Relay-Operati
 * `RELEASE_NOTE_SOV4.2a.md`: 公開経緯、詳細な変更点、ロードマップを記載しています。/ Contains the release background, detailed changes, and roadmap.
 * `LICENSE.md`: 本プロジェクトのライセンス条項 (**MITライセンス**) を記載しています。/ Contains the project's license terms (**MIT License**).
 * `TERMS_OF_USE.md`: 倫理規定を含む、利用規約および免責事項を記載しています。/ Contains the Terms of Use and Disclaimer, including ethical guidelines.
-*SOV 4.2a Integrated Edition — Logical Health Diagnostic OS20251028.md:取扱説明書/Quick User Guide
+* `SOV 4.2a Integrated Edition — Logical Health Diagnostic OS20251028.md`:取扱説明書/Quick User Guide
+
+---
+  
 ## 🤝 5. ライセンスと倫理規定 (License & Ethics)
 
 SOV 4.2aは、**MITライセンス**の下で提供されます。利用者は、ソースコードの利用、複製、改変、頒布を自由に行うことができます。

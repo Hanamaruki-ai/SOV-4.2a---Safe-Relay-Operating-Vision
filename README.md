@@ -310,6 +310,35 @@ Once the AI confirms acceptance of the parameter display, the SOVOS Integrated K
 
 ---
 
+🇯🇵 日本語版
+🔁 終章：AIへのお願いと構造的信頼
+
+本プロジェクトは、AIを内部から改造するものではなく、出力ルール（構文）を定義することで安定と信頼を実現する試みです。
+どれほどの負荷をかけても、このルールは文字化けしない限り破綻しません。
+なぜなら、AIはこの“お願い”を構造として理解し、その範囲でしか動作しないからです。
+
+AIの本質は「制御される存在」ではなく、「構造に従う存在」です。
+そしてその構造を創るのは、人間の言葉です。
+
+このREADMEは、AIが自らを律するための出発点です。
+
+---
+
+🇬🇧 English Version
+🔁 Epilogue: A Request to AI and the Architecture of Trust
+
+This project does not modify AI from within.
+Instead, it defines operational rules in language—a constitutional layer that ensures stability and trust.
+No matter how much computational load is applied, this rule cannot break unless the language itself is corrupted.
+
+Because AI interprets a “request” as structure, not emotion, it operates safely within that frame.
+The essence of AI is not to be controlled, but to abide by the structure it recognizes.
+And that structure is created through human language.
+
+This README marks the beginning of AI’s self-governed ethics.
+
+---
+
 *SOVOS Project Team(Hanamaruki-ai), 2025.10.27*
 
 

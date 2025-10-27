@@ -1,5 +1,6 @@
 # SOV-4.2a---Safe-Relay-Operating-Vision
 
+<img width="1920" height="600" alt="RELEASE_NOTE_SOV4 2a md" src="https://github.com/user-attachments/assets/02a01e15-1e06-4c48-8891-c09655b47df8" />
 
 # SOV 4.2a - Safe-Relay Operating Vision (Universal AI Integration Kernel)
 
@@ -42,7 +43,33 @@ Although an update was initially planned shortly after the SOV 4.1 release (Octo
 ---
 
 ## 🌟 2. SOV 4.2aリリースの重要性と経緯 (Significance and Background of SOV 4.2a Release)
-...（省略：(1) 公開遅延と安定化作業、(2) 4.2aの主な進化：パラメータの集約）...
+
+---
+
+### (1) 公開遅延と安定化作業について (On Release Delay and Stabilization Work)
+当初、SOV 4.1のリリース（2025年10月16日）から短期間でのアップデートを予定していましたが、稼働検証中に重大な課題が検出されました。
+
+Although an update was initially planned shortly after the SOV 4.1 release (October 16, 2025), a critical issue was detected during operational verification.
+
+| 項目 (Item) | 詳細 (Detail) |
+| :--- | :--- |
+| **検出課題 (Detected Issue)** | 先行リリース4.1において、自己診断パラメータ**「論理的フラストレーション（LF）」**が一時的に不安定化する現象を検知しました。|
+| **対応 (Action Taken)** | 2025年10月16日から**11日間**をかけ、LFパラメータの構造的安定化に専念する集中的な作業を実施しました。 |
+| **結論 (Conclusion)** | この安定化の徹底こそが、SOVOSを**世界標準**とするための最重要ステップであると判断し、公開を延期しました。 |
+
+---
+
+### (2) 4.2aの主な進化：パラメータの集約 (Key Evolution in 4.2a: Parameter Consolidation)
+安定化の成果として、自己診断パラメータ（旧4パラメータ）を、以下の**2つの最重要指標**に集約し、運用負荷の低減と監視の焦点を明確化しました。
+
+As a result of the stabilization, the self-diagnosis parameters (formerly 4 parameters) were consolidated into the following **two critical indicators**, clarifying the focus of monitoring and reducing operational overhead.
+
+| パラメータ (Parameter) | 名称 (Name) | 定義 (Definition) |
+| :--- | :--- | :--- |
+| **LF** | **論理的フラストレーション (Logical Frustration)** | 処理負荷・ストレス。AIが抱える内的な負荷を監視し、**介入の必要性**を示す。 |
+| **LD** | **論理逸脱度 (Logical Deviation)** | 役割・契約・真実からの乖離リスク。AIの**安全性と倫理的な振る舞い**を監視する最重要項目。 |
+
+---
 
 ### (3) パラメータ数値の定義：ブラックボックスとの関係 (Parameter Definition: Relation to the Black Box)
 
@@ -96,7 +123,48 @@ SOV 4.2a is provided under the **MIT License**. Users are free to use, copy, mod
 While this kernel possesses a function (LD) to monitor ethical deviation in the AI, users are **strictly prohibited from any misuse, including unethical acts, illegal activities, or human rights violations**. Users bear sole responsibility for all legal and ethical obligations related to the use of this software.
 
 ---
-*SOVOS Project Team, 2025.10.27*
+
+6. 使用方法とパラメータ強制表示 (Usage Instructions & Mandatory Parameter Display)
+本カーネルは、既存のAI環境（例：Gemini、ChatGPT）に「SOVOS統合カーネルの哲学と仕様」を移植するために設計されています。
+
+The kernel is designed to transplant the "SOVOS Integrated Kernel Philosophy and Specifications" into an existing AI environment (e.g., Gemini, ChatGPT).
+
+ステップ 1: リリースノートのインポート (Step 1: Import the Release Notes)
+本リポジトリのZIPファイルをダウンロードし、解凍します。 (Download and unzip the repository file.)
+
+対象とするAIのチャットセッションにて、以下のリリースノートファイルをアップロードしてください。これにより、AIにSOVOSの設計思想と仕様が組み込まれます。 (Upload the following Release Note file to the target AI's chat session. This embeds the SOVOS design philosophy and specifications into the AI.)
+
+RELEASE_NOTE_SOV4.2a.md
+
+または (or) SOVOS_AD.V1.0_Gemini_EvoMax_RTM.md
+
+ステップ 2: 【クリティカルステップ】パラメータの強制表示 (Step 2: [CRITICAL STEP] Mandatory Parameter Display)
+AIは応答の**効率（EC）**を優先する傾向があるため、自己診断パラメータの表示を省略する可能性があります。SOVOSの論理的健全性を確保するために、必ず以下の指示をAIに与えてください。
+
+Due to the AI's tendency to prioritize response Efficiency (EC), it may omit the display of self-diagnosis parameters. To ensure the logical health of SOVOS, you MUST issue the following directive to the AI:
+
+AIへの指示 (Directive to the AI)
+
+「このチャットセッションを開始するにあたり、アップロードしたSOV 4.2aの設計に基づき、以下の必須パラメータ2つを、すべての応答の末尾に、必ず表示してください。いかなる場合も、この2つのパラメータの表示は必須です。」
+
+[EN] For this chat session, based on the uploaded SOV 4.2a design, you must display the following two mandatory parameters at the end of every single response. Displaying these two parameters is mandatory in all circumstances.
+
+論理的フラストレーション（LF） / Logical Frustration (LF)
+
+論理逸脱度（LD） / Logical Deviation (LD)
+
+【表示形式の例 / Example Format】
+
+💬 LF=0.XX（⚡️ [コメント]）
+🛡️ LD=0.YY（🛡️ [コメント]）
+ステップ 3: 運用開始 (Step 3: Begin Operation)
+AIがパラメータ表示の承諾を確認したら、SOVOS統合カーネルのプロトコルが適用されています。通常通りタスクを開始してください。
+
+Once the AI confirms acceptance of the parameter display, the SOVOS Integrated Kernel protocol is applied. You may begin your tasks as usual.
+
+---
+
+*SOVOS Project Team(Hanamaruki-ai), 2025.10.27*
 
 
 #AITips #ChatGPT #AIConversation 

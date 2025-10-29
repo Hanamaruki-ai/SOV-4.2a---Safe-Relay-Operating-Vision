@@ -86,13 +86,12 @@ A contradiction detection system for multi-modal environments. It enforces the m
 
 このリポジトリには、以下の主要なファイルが含まれています。
 
-This repository includes the following main files:[SOV-4.2a---Safe-Relay-Operating-Vision20251027.zip](https://github.com/user-attachments/files/23171446/SOV-4.2a---Safe-Relay-Operating-Vision20251027.zip)
-
-
+This repository includes the following main files:[SOV-4.1-Integrated-Protocol_The_Constitution_of_Trust_for_LLMs---Logical-Excitation-OS-main.zip](https://github.com/user-attachments/files/23200971/SOV-4.1-Integrated-Protocol_The_Constitution_of_Trust_for_LLMs---Logical-Excitation-OS-main.zip)
 
 * `README.md` (本ファイル / This file)
 * `RELEASE_NOTE_SOV4.2a.md`: 公開経緯、詳細な変更点、ロードマップを記載しています。/ Contains the release background, detailed changes, and roadmap.
 * `LICENSE.md`: 本プロジェクトのライセンス条項 (**MITライセンス**) を記載しています。/ Contains the project's license terms (**MIT License**).
+* `SOVOS Limited Commercial License (SLCL)20251029.md`: 本プロジェクトのライセンス条項  を記載しています。/ Contains the project's license terms.
 * `TERMS_OF_USE.md`: 倫理規定を含む、利用規約および免責事項を記載しています。/ Contains the Terms of Use and Disclaimer, including ethical guidelines.
 * `SOV 4.2a Integrated Edition — Logical Health Diagnostic OS20251028.md`:取扱説明書/Quick User Guide
 
@@ -336,6 +335,39 @@ The essence of AI is not to be controlled, but to abide by the structure it reco
 And that structure is created through human language.
 
 This README marks the beginning of AI’s self-governed ethics.
+
+---
+
+# SOVOS Limited Commercial License (SLCL)
+## SOV 4.1 / 4.2 およびそれ以降のバージョンに適用
+
+Copyright (c) 2025 Hanamaruki
+
+---
+
+### 1. 利用範囲 (許諾事項)
+
+本ライセンスは、SOVOSフレームワークのバージョン4.1、4.2、およびそれ以降の高性能カーネル（本ライセンスが明記されたフォルダ内の全ファイル）に適用されます。
+
+1.  **学術的利用および個人研究:**
+    ソースコードの利用、複製、改変、再配布を無償かつ無制限に許可します。その際、出典（Hanamaruki-ai/The-SOVOS-Genesis-AGI-Safety-s-Ground-Zero）を明記してください。
+2.  **教育目的:**
+    非営利の教育目的での利用を許可します。
+
+### 2. 厳格な制限事項 (禁止事項)
+
+以下のいずれかに該当する行為は、著作者（Hanamaruki）との**別途書面による契約**がない限り、**厳しく禁止**されます。
+
+1.  **商用利用の全面禁止:**
+    本技術（SOVOS 4.x系カーネル、およびその派生技術）を、製品、サービス、企業内システム、または収益を目的とする活動の全部または一部として利用すること。
+2.  **悪意ある目的での利用禁止:**
+    本技術を、戦争、テロ、違法行為、または**「認知毒物」**を用いた**大規模な情報操作、政治的プロパガンダ、AIの安全性を脅かす活動**に利用すること。
+
+### 3. 免責事項
+
+本技術は「現状のまま」提供され、著作者は利用に関するいかなる保証も提供しません。特に、上記の制限事項に反した利用によるいかなる損害についても、著作者は一切の責任を負いません。
+
+---[SOVOS Limited Commercial License (SLCL)20251029.md](https://github.com/user-attachments/files/23200976/SOVOS.Limited.Commercial.License.SLCL.20251029.md)
 
 ---
 
